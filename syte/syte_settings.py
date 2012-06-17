@@ -5,7 +5,7 @@ COMPRESS_REVISION_NUMBER = '1.0'
 BLOG_PLATFORM = 'tumblr'  # Wordpress or tumblr
 
 #Blog Integration: Tumblr
-TUMBLR_BLOG_URL = 'tumblr.kkung.net/'
+TUMBLR_BLOG_URL = 'tumblr.kkung.net'
 TUMBLR_API_URL = 'http://api.tumblr.com/v2/blog/{0}'.format(TUMBLR_BLOG_URL)
 TUMBLR_API_KEY = 'SJm133MPnTeTvasbM5vPVAfgckUrhEpY6prTVPecqCAHT7fOhs'
 
@@ -137,6 +137,6 @@ if DEPLOYMENT_MODE == 'dev':
     DEBUG = True
 else:
     DEBUG = False
-    SITE_ROOT_URI = 'http://kkung.net'
+    SITE_ROOT_URI = 'http://kkung.net/'
 
 MEDIA_URL = SITE_ROOT_URI + 'static/'
