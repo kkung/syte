@@ -12,13 +12,13 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
+    ('kkung', 'kkungkkung@gmail.com'),
 )
 MANAGERS = ADMINS
 
 
-TIME_ZONE = 'America/Chicago'
-LANGUAGE_CODE = 'en-us'
+TIME_ZONE = 'Asia/Seoul'
+LANGUAGE_CODE = 'ko-kr'
 SITE_ID = 1
 USE_I18N = False
 USE_L10N = False
